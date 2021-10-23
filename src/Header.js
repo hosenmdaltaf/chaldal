@@ -11,26 +11,15 @@ export default function Header() {
 
             
             <Navbar/>
-              {/* <p className="title">Groceries delivered in 1 hour</p>
-     
-    <img class="bg_image" src="pxc.jpg" alt="altaf" />
-  
-            <Search/> */}
-
-            {/* <!-- hero section --> */}
-            <img class="hero-section" src="img/Grocery-apps-Banner-main-450.png" alt="altaf" />
+    
+            <img class="hero-section" src="img/landingBannerTop.jpg" alt="altaf" />
 <header >
 
-    <div class="content">
-        {/* <img src="img/light-logo.png" class="logo" alt=""/> */}
-        
+    <div class="content">  
         <h1 class="sub-heading">Groceries delivered in 1 hour</h1>
         <Search/>
     </div>
 </header>
-
-
-
 
 
       <div class="advert-center ">
@@ -40,22 +29,12 @@ export default function Header() {
         </div>
 
         <div class="advert-box">
-          <img src="img/Grocery-apps-Banner-main-450.png" alt=""/>
+          <img src="img/landingBannerTop.jpg" alt=""/>
         </div>
 
        
       </div>
 
-
-
-
-
-
-
-
-
-           
-        
 
 
         </div>
