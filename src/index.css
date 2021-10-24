@@ -201,9 +201,8 @@ body{
 
 .content{
   position: absolute;
-  bottom: 45%;
-  left: 30%;
-  
+  bottom: 40%;
+  left: 30%; 
 }
 .sub-heading{
   font-size: 40px;
@@ -213,20 +212,14 @@ body{
 
 
 
-
-
 .advert-center {
   display: flex;
   justify-content: space-around;
-  /* align-items: center; */
-
-  
+  /* align-items: center;  */
 }
-
 .advert-box {
   padding: 1%;
 }
-
 .advert-box img {
   height:150px;
   width: 500px;
