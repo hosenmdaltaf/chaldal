@@ -5,31 +5,44 @@ function Navbar() {
     return (
         <div>
   
-        <nav class="navbar">
+      <nav class="navbar">
         <div class="nav">
-            {/* <img src="img/dark-logo.png" class="brand-logo" alt=""/> */}
-            <h1 class="brand-logo">Chaldal</h1>
+            <div class="nav-items-logo">
+                <div >
+                    <img className="humberger"  src="img/menu.png" class="" alt=""/> 
+                </div>
+                <div> 
+                    <img src="img/logo-small.png" class="brand-logo" alt=""/>
+                </div>
+            </div>
 
-            {/* <div class="nav-items"> */}
+                    <div class="search">
+                        <input type="text" class="search-box" placeholder="search brand, product"/>
+                        <div class="search-btn">
+                            <img   src="img/search_icon.png" class="search-icon" alt=""/> 
+                        </div>
+                    </div>
 
-                <div class="search">
-                    <input type="text" class="search-box" placeholder="search brand, product"/>
-                    <button class="search-btn">search</button>
+            <div class="nav-items">
+                    <div className="nav-logo-text">
+                        <img className="navlogo" src="img/location_icon.png" alt=""/>
+                        <p>Dhaka</p>
+                    </div>
+                    <div className="nav-logo-text"> 
+                        <img className="navlogo" src="img/query.jpg" alt=""/>    
+                        <p>Help&More</p>
+                    </div>
+                    <div className="nav-logo-text">     
+                        <p>En|Bn</p>
+                    </div>
+                    <div className="nav-logo-text">     
+                        <button className="lastitem">Signin</button>
+                    </div>
+
                 </div>
 
-                <div class="nav-items">
-                {/* <a href="#"><img src="img/user.png" alt=""/></a>
-                <a href="#"><img src="img/cart.png" alt=""/></a> */}
-                <p>Dhaka</p>
-                <p>Help&More</p>
-                <p>En|Bn</p>
-                <p>Signin</p>
-                </div>
 
-            {/* </div> */}
-
-
-        </div>
+            </div>
         </nav>
 
 

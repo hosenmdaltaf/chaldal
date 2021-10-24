@@ -10,9 +10,11 @@ export default function Header() {
         <div>
 
             
-            <Navbar/>
-    
-            <img class="hero-section" src="img/landingBannerTop.jpg" alt="altaf" />
+      <Navbar/>
+    <div class="hero-section">
+    <img  src="img/landingBannerTop.jpg" alt="altaf" />
+    </div>
+           
 <header >
 
     <div class="content">  
