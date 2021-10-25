@@ -4,6 +4,7 @@ import Category from './Category';
 import Header from './Header';
 import Orderslider from './Orderslider';
 import Specialofferslide from './Specialofferslide';
+import Support from './Support';
 import Whypepole from './Whypepole';
 
 
@@ -15,6 +16,7 @@ function App() {
      <Orderslider/>
      <Specialofferslide/>
      <Whypepole/>
+     <Support/>
     </div>
   );
 }

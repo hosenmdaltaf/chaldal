@@ -308,3 +308,14 @@ border-bottom: 3px solid #fdd670;
 .cardstexts p{
   margin-bottom: 30px;
 }
+
+.supportimg{
+  background-size: cover;
+background-position: center;
+position: relative;
+padding-bottom: 80px;
+}
+/* apps add seaction--------------------------------- */
+.appsadd{
+
+}
