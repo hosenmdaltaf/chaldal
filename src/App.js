@@ -1,5 +1,6 @@
 
 import './App.css';
+import Appsadd from './Appsadd';
 import Category from './Category';
 import Header from './Header';
 import Orderslider from './Orderslider';
@@ -17,6 +18,7 @@ function App() {
      <Specialofferslide/>
      <Whypepole/>
      <Support/>
+     <Appsadd/>
     </div>
   );
 }

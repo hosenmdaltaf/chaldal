@@ -317,5 +317,65 @@ padding-bottom: 80px;
 }
 /* apps add seaction--------------------------------- */
 .appsadd{
-
+ display: flex;
+ justify-content: space-around;
+}
+.appsh3{
+  font-weight: 300;
+color: rgba(0,0,0,.95);
+margin-bottom: 50px;
+}
+.appsearchbox{
+  background-color: #eee;
+  border: 2px solid #eee;
+      border-right-color: rgb(238, 238, 238);
+      border-right-style: solid;
+      border-right-width: 2px;
+  border-right: 0;
+  border-radius: 6px 0 0 6px;
+  font-size: 1em;
+  line-height: 1em;
+  padding: 13px 13px 13px 45px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.appsnum{
+  /* position: absolute; */
+color: #aaa;
+bottom: -30px;
+left: 10px;
+font-size: .8em;
+}
+.appsbutton{
+  background-color: #ff686e;
+  border: 0;
+  border-radius: 0 6px 6px 0;
+  color: #fff;
+  outline: 0;
+  max-width: 30%;
+  padding: 15px 20px;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+.appimgs{
+  background-repeat: no-repeat;
+background-size: contain;
+display: inline-block;
+height: 74px;
+width: auto;
+margin: 0;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+}
+.appimg{
+  height: 100%;
+width: auto;
+}
+.appview{
+  align-self: flex-end;
+width: 30%;
+height: auto;
 }
