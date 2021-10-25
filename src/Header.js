@@ -27,11 +27,11 @@ export default function Header() {
       <div class="advert-center ">
 
         <div class="advert-box">
-          <img src="img/Grocery-apps-Banner-main-450.png" alt=""/>
+          <img src="img/_mpimage_002.webp" alt=""/>
         </div>
 
         <div class="advert-box">
-          <img src="img/landingBannerTop.jpg" alt=""/>
+          <img src="img/_mpimage.webp" alt=""/>
         </div>
 
        

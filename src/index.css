@@ -3,7 +3,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'roboto', sans-serif;
+  /* font-family: 'roboto', sans-serif; */
+  font-family: segoe ui,Helvetica,droid sans,Arial,lucida grande,tahoma,verdana,arial,sans-serif;
 }
 
 .navbar{
@@ -188,18 +189,122 @@ width: 49.9%;
   width: 600px;
 }
 
-
-.categoryrow{
-  display: grid;
-  grid-template-columns: repeat(3,1fr);
+/* category page design------------------------- */
+.categoryhead{
+  display: table;
+margin: 0 auto 20px;
+width: 100%;
+padding-top: 0;
+text-align: center;
+}
+.categoryh2{
+  color: rgba(0,0,0,.95);
+  font-weight: 300;
+  padding-top: 0;
+  font-size: 24px;
+  margin-bottom: 20px;
 
 }
+.categoryrow{
+  /* display: grid;
+  grid-template-columns: repeat(3,1fr); 
+   gap: 3%; */
+   display: grid;
+   grid-template-columns: auto auto auto;
+   /* grid-column-gap: 1%; */
+
+}
+
+.Categorybox{
+  display: flex;
+  justify-content: space-between;
+  border:1px solid #d4d4d4;
+  align-items: center;
+  /* padding: 10px; */
+  padding: 15px 10px 15px 15px;
+  border-radius: 3px;
+  /* margin-bottom: 10px; */
+  margin: 8px 50px 10px 10px ;
+
+  /* width: 32%;
+border: 1px solid #d4d4d4;
+float: left;
+margin: .5%;
+padding: 15px 10px 15px 15px;
+border-radius: 3px;
+*/
+} 
 .categoryimg{
   width: 40px;
   height: 40px;
 }
-.Categorybox{
-  display: flex;
-  justify-content: space-around;
+.categorytext{
+width: 80%;
+/* float: left; */
+font-size: 15px;
+line-height: 31px;
+
 }
 
+.ordersliderh2{
+  color: rgba(0,0,0,.95);
+  font-weight: 300;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  font-size: 24px;
+}
+/* .ordersliderimg{
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 42%;
+  height: 100%;
+  width: 100%;
+  
+} */
+
+/* why pepole love us ---------------------------*/
+.cardsh2{
+color: rgba(0,0,0,.95);
+font-weight: 300;
+padding-top: 0;
+margin-bottom: 20px;
+}
+.cardsbody{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+              
+.cardsrow{
+  
+  /* display: block;
+  overflow: visible;
+  text-align: center; */
+}
+
+.cardsimg{
+  width: 100%;
+  height: auto;
+}
+.cardstexts{
+/* position: absolute;
+bottom: 0;
+right: 0;
+display: block;
+overflow: hidden; */
+position: relative;
+bottom: 36%;
+padding:20px;
+/* padding-bottom: 100px; */
+width: 100%;
+min-height: 35%;
+background-color: rgba(255,255,255,.8);
+border-bottom: 3px solid #fdd670;
+}
+.cardstexts h2{
+  font-size: 17px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+.cardstexts p{
+  margin-bottom: 30px;
+}

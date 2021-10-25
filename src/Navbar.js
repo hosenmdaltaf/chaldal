@@ -29,7 +29,7 @@ function Navbar() {
                         <p>Dhaka</p>
                     </div>
                     <div className="nav-logo-text"> 
-                        <img className="navlogo" src="img/query.jpg" alt=""/>    
+                        <img  className="navlogo" src="img/query.png" alt=""/>    
                         <p>Help&More</p>
                     </div>
                     <div className="nav-logo-text">     
