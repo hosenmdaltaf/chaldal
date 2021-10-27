@@ -2,7 +2,7 @@ import React from 'react'
 
 function Clientsay() {
     return (
-        <div>
+        <div className="clientseaction">
             <h2 className="ordersliderh2">What our clients are saying</h2>
             <div className="clientsay">
                 <div className="clientimgtxt">

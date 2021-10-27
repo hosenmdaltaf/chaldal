@@ -113,11 +113,8 @@ width: 154px;
   padding: 10px;
   font-size: 15px;
   font-weight:600;
-  
-  
 }
 .lastitem{
-
 background: #ff686e;
 border-bottom: 1px solid #ff4e56;
 /* height: 100%; */
@@ -165,7 +162,6 @@ border-radius: 0 0 12px 12px;
 .hero-seaction{
   width: 100vw;
   height: 100vh;
-
 }
 .content{
   position:absolute;
@@ -326,15 +322,104 @@ border-bottom: 3px solid #fdd670;
 .cardstexts p{
   margin-bottom: 30px;
 }
-
+/* support page ----------------------------------------------- */
 .supportimg{
-  background-size: cover;
+ /* background-size: cover;
 background-position: center;
 position: relative;
 padding-bottom: 80px;
+left: 10px; */
+/* width: 100vw;  */
+
+}
+.supportseaction{
+  /* background-size: cover;
+background-position: center;
+position: relative;
+padding-bottom: 80px;
+/* left: 10px; */
+/* width: 100vw; */ 
+/* width: 100%;
+height: 100%; */
+/* width: 100%;
+height: 100%; */
+/* background-size: cover;
+background-position: center; */
+position: relative;
+/* padding-bottom: 80px; */
+  
+}
+.supportseaction::before{
+  /* width: 100vw;
+height: 100vh; */
+content: " ";
+opacity: .8;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: -moz-linear-gradient(left,#00728f 0,#00566b 100%);
+background: -webkit-gradient(left top,right top,color-stop(0%,#00728f),color-stop(100%,#00566b));
+background: -webkit-linear-gradient(left,#00728f 0,#00566b 100%);
+background: -o-linear-gradient(left,#00728f 0,#00566b 100%);
+background: -ms-linear-gradient(left,#00728f 0,#00566b 100%);
+background: linear-gradient(to right,#00728f 0,#00566b 100%);
+}
+
+.support{
+  position:relative;
+  /* bottom:500px; */
+  bottom:500px;
+  color: #eee;
+}
+.supporttxt{
+  /* display: table; */
+margin: 0 auto 20px;
+width: 100%;
+padding-top: 0;
+text-align: center;
+}
+.supportcards{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.supportcard{
+  position: relative;
+padding: 15px;
+margin: 0 15px 15px;
+/* display: inline-block; */
+border-radius: 5px;
+width: 195px;
+background-color: rgba(0,0,0,.2);
+}
+.supportbuttontxt{
+  text-align: center;
+}
+.supportbutton{
+  padding: 8px 15px 9px;
+display: inline-block;
+border: 0;
+outline: 0;
+border-radius: 2px;
+text-transform: uppercase;
+text-decoration: none;
+font-size: 14px;
+color: #fff;
+background-color: #ff686e;
+-webkit-transition: all 300ms ease-in-out;
+transition: all 300ms ease-in-out;
+-webkit-box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+-moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
+box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
 }
 
 /* what our clients saying about us---------------------------------- */
+.clientseaction{
+  position: relative;
+  bottom: 80px;
+}
 .clientsay{
   display: flex;
   align-items: center;
@@ -367,6 +452,8 @@ text-align: left;
 .appsadd{
  display: flex;
  justify-content: space-around;
+ position: relative;
+ bottom: 250px;
 }
 .appsh3{
   font-weight: 300;
@@ -442,6 +529,8 @@ height: auto;
   width: 100%;
 background: #3a3a3a;
 margin-bottom: initial !important;
+position: relative;
+bottom: 250px;
 }
 .loactionimg{
   /* width: 250px;
@@ -472,6 +561,14 @@ font-size: 25px;
   font-size: 15px;
   
 
+}
+
+
+/* footer page------------------------------ */
+
+.footer{
+  padding: 10px;
+  margin-bottom: 50px;
 }
 .topfooterfirst{
   display: flex;
