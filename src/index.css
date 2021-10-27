@@ -126,7 +126,15 @@ padding:12px;
 font-size: 15px;
 }
 
-
+.headerAddressComponent{
+  /* display: none;
+position: absolute;
+right: 0; */
+height: auto;
+width: auto;
+background-color: #fff;
+border-radius: 0 0 12px 12px;
+}
 
 
 
@@ -224,7 +232,7 @@ text-align: center;
   padding: 15px 10px 15px 15px;
   border-radius: 3px;
   /* margin-bottom: 10px; */
-  margin: 8px 50px 10px 10px ;
+  margin: 8px 50px 10px 50px ;
 
   /* width: 32%;
 border: 1px solid #d4d4d4;
@@ -245,22 +253,31 @@ font-size: 15px;
 line-height: 31px;
 
 }
-
+/* .orderslider-------------------------------------- */
 .ordersliderh2{
   color: rgba(0,0,0,.95);
   font-weight: 300;
   padding-top: 10px;
   margin-bottom: 40px;
   font-size: 24px;
+   text-align: center;
 }
-/* .ordersliderimg{
+.orderslider{
   position: relative;
   overflow: hidden;
-  padding-bottom: 42%;
+  margin-left:12%;
+  /* padding-bottom: 42%; */
   height: 100%;
   width: 100%;
+
+}
+.ordersliderimg{
+  /* position: absolute;
+  height: 100%;
+  -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; */
   
-} */
+}
 
 /* why pepole love us ---------------------------*/
 .cardsh2{
@@ -268,6 +285,7 @@ color: rgba(0,0,0,.95);
 font-weight: 300;
 padding-top: 0;
 margin-bottom: 20px;
+text-align: center;
 }
 .cardsbody{
   display: grid;
@@ -315,6 +333,36 @@ background-position: center;
 position: relative;
 padding-bottom: 80px;
 }
+
+/* what our clients saying about us---------------------------------- */
+.clientsay{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 25px;
+  margin-right: 55px;
+  padding: 20px;
+}
+.clienttxt{
+  background-color: #eee;
+line-height: 25px;
+font-size: 16px;
+font-weight: 200;
+width: 100%;
+padding: 15px;
+margin-bottom: 30px;
+border-radius: 5px;
+text-align: left;
+}
+.clientimgtxt{
+  text-align: center;
+  width: 200px;
+  display: inline-block;
+}
+
+
+
+
 /* apps add seaction--------------------------------- */
 .appsadd{
  display: flex;
@@ -349,6 +397,9 @@ bottom: -30px;
 left: 10px;
 font-size: .8em;
 }
+.searchbtn{
+  display: flex;
+}
 .appsbutton{
   background-color: #ff686e;
   border: 0;
@@ -357,8 +408,12 @@ font-size: .8em;
   outline: 0;
   max-width: 30%;
   padding: 15px 20px;
-  -webkit-transition: all 300ms ease-in-out;
-  transition: all 300ms ease-in-out;
+  /* -webkit-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out; */
+  /* position: relative;
+  margin-left: 100px;
+  margin-bottom: 100px; */
+
 }
 .appimgs{
   background-repeat: no-repeat;
@@ -378,4 +433,121 @@ width: auto;
   align-self: flex-end;
 width: 30%;
 height: auto;
+}
+
+/* total and loaction page design----------- */
+.total{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+background: #3a3a3a;
+margin-bottom: initial !important;
+}
+.loactionimg{
+  /* width: 250px;
+  height: 400px; */
+}
+.totaldetails{
+  margin-top: 40px;
+  margin-right: 40px;
+  text-align: center;
+  float: right;
+font-size: 25px;
+}
+.yellowh2{
+  color: #fdd66f;
+  font-weight: 700;
+}
+
+.whiteh2{
+  color: #fff;
+}
+/* footer design---------------------- */
+.topfooter{
+  /* display: gird;
+  grid-template-columns: repeat(2,1fr); */
+  display: flex;
+  justify-content: space-between;
+  background-color: #f7f7f7;
+  font-size: 15px;
+  
+
+}
+.topfooterfirst{
+  display: flex;
+  align-items: center;
+}
+.topfooterlogos{
+  display: flex;
+}
+/* .smalllogo{
+  width: 154px;
+height: 50px;
+} */
+.largetext{
+  font-size: 15px;
+
+}
+.topfootersecond{
+  display: flex;
+  align-items: center;
+}
+.topfooterimg{
+  width: 40px;
+height: 40px;
+/* vertical-align: middle; */
+}
+
+.secondfooterleft{
+  /* display: grid;
+  grid-template-columns: repeat(2,1fr); */
+  width: 70%;
+float: left;
+border-right: 1px solid #ececec;
+padding-left: 20px;
+padding-right: 10px;
+margin-bottom: 30px;
+}
+
+.lastfooter{
+  display: flex;
+  justify-content: space-between;
+}
+ul{
+  list-style: none;
+}
+ul li{
+  padding-bottom: 5px;
+  float: initial !important;
+  text-align: left;
+
+}
+.lastfooterp{
+  /* width: 80%; */
+  font-weight: 600;
+  border-bottom: 1px solid #ededed;
+  font-size: 18px;
+  padding-bottom: 10px;
+
+  /* padding-bottom: 5px;
+  float: initial !important; */
+  /* text-align: left; */
+}
+.appsimg{
+  /* width: 45%; */
+  margin-top: 20px;
+  /* float: right; */
+max-width: 360px;
+padding:5px ;
+}
+.secondfooterright{
+  width: 30%;
+  float: right;
+  border-left: 1px solid #f3f3f3;
+  padding-left: 10px;
+  padding-right: 20px;
+}
+
+.footernumber{
+  display: flex;
 }
