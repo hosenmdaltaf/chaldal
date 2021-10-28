@@ -3,7 +3,7 @@ import React from 'react'
 function Appsadd() {
     return (
         <div className="appsadd">
-            <div>
+            <div className="appsaddfirst">
                 <h3 className="appsh3">Be part of our Family</h3>
                 <div className="searchbtn"> 
                 <input type="search" className="appsearchbox"/>
@@ -17,7 +17,7 @@ function Appsadd() {
             </div>
 
                 <div className="appview">
-                    <img src="img/iphone_nexus.webp" alt="imgapp"/>
+                    <img className="appviewimg" src="img/iphone_nexus.webp" alt="imgapp"/>
                 </div>
 
 

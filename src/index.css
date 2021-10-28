@@ -56,7 +56,6 @@ width: 154px;
   position: relative;
   right: 35%;
 
-   
 }
 
 .search{
@@ -135,34 +134,26 @@ border-radius: 0 0 12px 12px;
 
 
 
-/* .hero-section{
-  width: 100%;
-  height: calc(100vh - 120px);
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-section .logo{
-  height: 150px;
-  display: block;
-  margin: auto;
-}
-
-.hero-section .sub-heading{
-  margin-top: 10px;
-  text-align: center;
-  color: #fff;
-  text-transform: capitalize;
-  font-size: 35px;
-  font-weight: 300;
-} */
-
 .hero-seaction{
-  width: 100vw;
-  height: 100vh;
+  /* width: 100vw;
+  height: 100vh; */
 }
+.heroseactionimg{
+  /* max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: auto;
+  height: auto; */
+  /* margin-left: 0;
+  margin-top: 0; */
+
+ 
+    background-size: auto;
+background-size: cover;
+height: 325px;
+/* padding-top: 100px; */
+}
+
 .content{
   position:absolute;
   bottom: 60%;
@@ -176,21 +167,24 @@ border-radius: 0 0 12px 12px;
  
 }
 
-
 .advert-center {
   display: flex;
   justify-content: space-around;
   /* align-items: center;  */
 }
 .advert-box {
-  padding: 1%;
-  margin: 0 auto;
-max-width: 588px;
-width: 49.9%;
+position: relative;
+overflow: hidden;
+height: 100%;
+width: 100%;
+text-align: center;
 }
 .advert-box img {
-  height:150px;
-  width: 600px;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: auto;
+  height: auto;
 }
 
 /* category page design------------------------- */
@@ -210,70 +204,93 @@ text-align: center;
 
 }
 .categoryrow{
-  /* display: grid;
-  grid-template-columns: repeat(3,1fr); 
-   gap: 3%; */
    display: grid;
-   grid-template-columns: auto auto auto;
-   /* grid-column-gap: 1%; */
-
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+   grid-gap:1%;
+   margin-left: 80px;
+   margin-right: 80px;
 }
 
 .Categorybox{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   border:1px solid #d4d4d4;
   align-items: center;
-  /* padding: 10px; */
   padding: 15px 10px 15px 15px;
-  border-radius: 3px;
-  /* margin-bottom: 10px; */
-  margin: 8px 50px 10px 50px ;
-
-  /* width: 32%;
-border: 1px solid #d4d4d4;
-float: left;
-margin: .5%;
-padding: 15px 10px 15px 15px;
-border-radius: 3px;
-*/
+  margin-bottom: 2%;
+ 
 } 
 .categoryimg{
   width: 40px;
   height: 40px;
 }
 .categorytext{
-width: 80%;
-/* float: left; */
 font-size: 15px;
 line-height: 31px;
 
 }
 /* .orderslider-------------------------------------- */
+.ordersliders{
+/* margin-left: 170px; */
+
+}
 .ordersliderh2{
   color: rgba(0,0,0,.95);
   font-weight: 300;
   padding-top: 10px;
   margin-bottom: 40px;
   font-size: 24px;
-   text-align: center;
+   text-align: center ;
 }
 .orderslider{
-  position: relative;
+  position: relative ;
   overflow: hidden;
-  margin-left:12%;
+  /* margin-left:12%; */
   /* padding-bottom: 42%; */
   height: 100%;
   width: 100%;
-
+  /* text-align: center !important; */
 }
 .ordersliderimg{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
+  width: auto;
+  height: auto;
   /* position: absolute;
   height: 100%;
   -webkit-transition: all 300ms ease-in-out;
   transition: all 300ms ease-in-out; */
   
 }
+
+/* Special Offers slides------------------------------ */
+
+.specialofferslidefull{
+  position: relative;
+  background: #fff;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  -webkit-border-radius: 4px;
+}
+.specialofferslidelarge img{
+  max-height: 100%;
+  max-width: calc(100% - 175px);
+  width: auto;
+  height: auto;
+  margin-right: 15px;
+}
+
+
+
+
+
+
+
+
 
 /* why pepole love us ---------------------------*/
 .cardsh2{
@@ -286,13 +303,13 @@ text-align: center;
 .cardsbody{
   display: grid;
   grid-template-columns: repeat(3,1fr);
-}
-              
+  /* grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); */
+
+}              
 .cardsrow{
-  
-  /* display: block;
+  display: block;
   overflow: visible;
-  text-align: center; */
+  text-align: center;
 }
 
 .cardsimg{
@@ -300,15 +317,9 @@ text-align: center;
   height: auto;
 }
 .cardstexts{
-/* position: absolute;
-bottom: 0;
-right: 0;
-display: block;
-overflow: hidden; */
 position: relative;
 bottom: 36%;
 padding:20px;
-/* padding-bottom: 100px; */
 width: 100%;
 min-height: 35%;
 background-color: rgba(255,255,255,.8);
@@ -323,28 +334,12 @@ border-bottom: 3px solid #fdd670;
   margin-bottom: 30px;
 }
 /* support page ----------------------------------------------- */
+
 .supportimg{
- /* background-size: cover;
-background-position: center;
-position: relative;
-padding-bottom: 80px;
-left: 10px; */
-/* width: 100vw;  */
+ 
 
 }
 .supportseaction{
-  /* background-size: cover;
-background-position: center;
-position: relative;
-padding-bottom: 80px;
-/* left: 10px; */
-/* width: 100vw; */ 
-/* width: 100%;
-height: 100%; */
-/* width: 100%;
-height: 100%; */
-/* background-size: cover;
-background-position: center; */
 position: relative;
 /* padding-bottom: 80px; */
   
@@ -359,18 +354,12 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background: -moz-linear-gradient(left,#00728f 0,#00566b 100%);
-background: -webkit-gradient(left top,right top,color-stop(0%,#00728f),color-stop(100%,#00566b));
-background: -webkit-linear-gradient(left,#00728f 0,#00566b 100%);
-background: -o-linear-gradient(left,#00728f 0,#00566b 100%);
-background: -ms-linear-gradient(left,#00728f 0,#00566b 100%);
 background: linear-gradient(to right,#00728f 0,#00566b 100%);
 }
 
 .support{
   position:relative;
-  /* bottom:500px; */
-  bottom:500px;
+  bottom:450px;
   color: #eee;
 }
 .supporttxt{
@@ -383,7 +372,7 @@ text-align: center;
 .supportcards{
   display: flex;
   /* align-items: center; */
-  justify-content: center;
+  justify-content: center; 
 }
 .supportcard{
   position: relative;
@@ -416,18 +405,29 @@ box-shadow: 0 1px 3px 0 rgba(0,0,0,.3);
 }
 
 /* what our clients saying about us---------------------------------- */
+
+.clienth2{
+  color: rgba(0,0,0,.95);
+  font-weight: 300;
+  padding-top: 10px;
+  margin-bottom: 40px;
+  font-size: 24px;
+   text-align: center ;
+}
+
 .clientseaction{
-  position: relative;
+  position: relative !important;
   bottom: 80px;
 }
 .clientsay{
-  display: flex;
+  display: flex !important;
   align-items: center;
   justify-content: space-around;
   margin-left: 25px;
   margin-right: 55px;
   padding: 20px;
 }
+
 .clienttxt{
   background-color: #eee;
 line-height: 25px;
@@ -440,20 +440,23 @@ border-radius: 5px;
 text-align: left;
 }
 .clientimgtxt{
-  text-align: center;
+  text-align: center ;
   width: 200px;
-  display: inline-block;
+  /* display: inline-block; */
 }
-
-
-
+.clientimgtxt p{
+  text-align: center;
+  margin-right:50px;
+  /* width: 200px; */
+  /* display: inline-block; */
+}
 
 /* apps add seaction--------------------------------- */
 .appsadd{
  display: flex;
  justify-content: space-around;
- position: relative;
- bottom: 250px;
+ /* position: relative; */
+ /* bottom: 250px; */
 }
 .appsh3{
   font-weight: 300;
@@ -516,31 +519,63 @@ transition: all 300ms ease-in-out;
   height: 100%;
 width: auto;
 }
+
+.appsaddfirst{
+  /* margin-left: 150px; */
+}
 .appview{
-  align-self: flex-end;
-width: 30%;
+  /* align-self: flex-end;  */
+ width: 30%;
+ /* margin-right: ;
+
 height: auto;
+height: 100%;
+width: 100%; */
+text-align: center;
+}
+.appviewimg{
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: auto;
+  height: auto;
 }
 
-/* total and loaction page design----------- */
+/* total and loaction page design-------------------------------------------------- */
 .total{
-  display: flex;
-  justify-content: space-around;
+  /* display: flex; 
+  justify-content: space-between; */
+  display: grid;
+  /* grid-template-columns: repeat(2,1fr); */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   width: 100%;
 background: #3a3a3a;
-margin-bottom: initial !important;
-position: relative;
-bottom: 250px;
+/* margin-bottom: initial !important; */
+/* position: relative; */
+/* bottom: 250px; */
 }
+
+.loactionimgcover{
+  /* position: relative; */
+  /* overflow: hidden; */
+   /* padding-bottom: 42%; */
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
+
 .loactionimg{
-  /* width: 250px;
-  height: 400px; */
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  width: auto;
+  height: auto;
 }
 .totaldetails{
   margin-top: 40px;
-  margin-right: 40px;
+   margin-right: 40px;
   text-align: center;
-  float: right;
+  /* float: right; */
 font-size: 25px;
 }
 .yellowh2{
@@ -551,7 +586,7 @@ font-size: 25px;
 .whiteh2{
   color: #fff;
 }
-/* footer design---------------------- */
+/* footer design------------------------------------------------------------ */
 .topfooter{
   /* display: gird;
   grid-template-columns: repeat(2,1fr); */
@@ -559,16 +594,13 @@ font-size: 25px;
   justify-content: space-between;
   background-color: #f7f7f7;
   font-size: 15px;
-  
-
 }
-
 
 /* footer page------------------------------ */
 
 .footer{
   padding: 10px;
-  margin-bottom: 50px;
+  margin-bottom: 250px;
 }
 .topfooterfirst{
   display: flex;
@@ -648,3 +680,69 @@ padding:5px ;
 .footernumber{
   display: flex;
 }
+
+
+
+@media screen and (max-width: 800px) {
+  .cardsbody{
+    grid-template-columns:1fr; 
+  }
+  .cardstexts{
+    position: relative;
+    bottom: 10%;
+    padding:2px;
+    }
+    .advert-center {
+      flex-direction: column;
+    }
+    .appsadd{
+      flex-direction: column;
+      align-items: center;
+    }
+ 
+    .total{
+      flex-direction: column;
+  
+    }
+    .clientseaction{
+    /* top: 20px; */
+    padding:20px ;
+    padding-top: 150px;
+    }
+   
+ 
+}
+@media screen and (max-width: 600px) {
+  .clientsay{
+    flex-direction: column;}
+    .clienttxt{
+      margin-top: 30px;
+    }
+    .supportcards{
+     flex-direction: column;
+     align-items: center;
+
+    }
+    .supportcard{
+      position: relative;
+    padding: 5px;
+    margin: 0 15px 15px;
+    border-radius: 5px;
+    width: 195px;
+    background-color: rgba(0,0,0,.2);
+    text-align: center;
+    }
+    .support{
+      position:relative;
+      bottom:500px;
+      color: #eee;
+    }
+    .totaldetails{
+      margin-top: 40px;
+       margin-right: 40px;
+      text-align: center;
+      /* float: right; */
+    font-size: 15px;
+    }
+   
+  }

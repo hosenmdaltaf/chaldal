@@ -3,7 +3,7 @@ import React from 'react'
 function Total() {
     return (
         <div className="total">
-            <div >
+            <div className="loactionimgcover" >
                 <img className="loactionimg" src="img/chaldal_new_warehouses.webp" alt="loaction"/>
             </div>
             <div className="totaldetails">

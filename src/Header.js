@@ -10,16 +10,15 @@ export default function Header() {
 
      
     <div class="hero-section">
-    <img  src="img/landingBannerTop.jpg" alt="altaf" />
+    <img className="heroseactionimg" src="img/landingBannerTop.jpg" alt="altaf" />
     </div>
-           
-<header >
+
 
     <div class="content">  
         <h1 class="sub-heading">Groceries delivered in 1 hour</h1>
         <Search/>
     </div>
-</header>
+
 
 
       <div class="advert-center ">
