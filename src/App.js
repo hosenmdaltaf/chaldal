@@ -24,7 +24,7 @@ function App() {
      <Header/>
      <Category/>
      <Orderslider/>
-     <Specialofferslide/>
+     {/* <Specialofferslide/> */}
      <Whypepole/>
      <Clientsay/>
      <Support/>

@@ -16,7 +16,16 @@ export default function Header() {
 
     <div class="content">  
         <h1 class="sub-heading">Groceries delivered in 1 hour</h1>
-        <Search/>
+        {/* <Search/> */}
+
+        <div id='search-box'>
+                    <form action='/search' id='search-form' method='get' target='_top'>
+                    <input id='search-text' name='q' placeholder='Search' type='text'/>
+                    <div class="search-btn">
+                            <img   src="img/search_icon.png" class="search-icon" alt=""/> 
+                        </div>
+                    </form>
+                    </div>
     </div>
 
 
