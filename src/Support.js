@@ -4,9 +4,9 @@ function Support() {
     return (
         <div >
             <div className="supportseaction">
-            <img  className="supportimg" src="img/banner-corporate-page.jpg" alt="support"/>
+            {/* <img  className="supportimg" src="img/banner-corporate-page.jpg" alt="support"/> */}
 
-            </div>
+          
 
          <div className="support">
             <div className="supporttxt">
@@ -35,6 +35,7 @@ function Support() {
            
         </div>
            
+        </div>
         </div>
     )
 }

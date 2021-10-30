@@ -11,9 +11,11 @@ import Total from './Total';
 import Whypepole from './Whypepole';
 import Navbar from './Navbar'
 import Clientsay from './Clientsay';
+import Advert from './Advert';
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
+
 
 
 function App() {
@@ -22,6 +24,7 @@ function App() {
              
      <Navbar/>
      <Header/>
+     <Advert/>
      <Category/>
      <Orderslider/>
      {/* <Specialofferslide/> */}

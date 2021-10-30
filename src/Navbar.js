@@ -26,10 +26,10 @@ function Navbar() {
 
                     <div id='search-box'>
                     <form action='/search' id='search-form' method='get' target='_top'>
-                    <input id='search-text' name='q' placeholder='Search' type='text'/>
-                    <div class="search-btn">
+                    <input id='search-text' placeholder="search brand, product(e.g. eggs,milk,potato)" type='text' />
+                    {/* <div class="search-btn">
                             <img   src="img/search_icon.png" class="search-icon" alt=""/> 
-                        </div>
+                        </div> */}
                     </form>
                     </div>
 
@@ -37,6 +37,7 @@ function Navbar() {
    
 
             <div class="nav-items">
+                <div className="navitemstextfirst">
                     <div className="nav-logo-text1">
                         <img className="navlogo1" src="img/location_icon.png" alt=""/>
                         <p>Dhaka</p>
@@ -46,12 +47,16 @@ function Navbar() {
                         <img  className="navlogo2" src="img/query.png" alt=""/>    
                         <p>Help&More</p>
                     </div>
+                </div>
+
+                <div className="navitemstextsecond">
                     <div className="nav-logo-text">     
                         <p>En|Bn</p>
                     </div>
                     <div className="nav-logo-text-last">     
                         <button className="lastitem">Signin</button>
                     </div>
+                </div>
 
                 </div>
 

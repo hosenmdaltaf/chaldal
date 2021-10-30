@@ -10,40 +10,29 @@ export default function Header() {
 
      
     <div class="hero-section">
-    <img className="heroseactionimg" src="img/landingBannerTop.jpg" alt="altaf" />
-    </div>
+    {/* <img className="heroseactionimg" src="img/landingBannerTop.jpg" alt="altaf" /> */}
+  
 
 
-    <div class="content">  
+  
         <h1 class="sub-heading">Groceries delivered in 1 hour</h1>
         {/* <Search/> */}
-
-        <div id='search-box'>
-                    <form action='/search' id='search-form' method='get' target='_top'>
-                    <input id='search-text' name='q' placeholder='Search' type='text'/>
-                    <div class="search-btn">
+{/*   
+        <div class="content">   */}
+        <div id='search-boxhead'>
+                    <form action='/search' id='search-form'>
+                    <input id='search-texthead' placeholder="search brand, product(e.g. eggs,milk,potato)"  type='text'/>
+                    <div class="search-btnhead">
                             <img   src="img/search_icon.png" class="search-icon" alt=""/> 
                         </div>
                     </form>
                     </div>
-    </div>
+   
+                    {/* </div> */}
 
 
 
-      <div class="advert-center ">
-
-        <div class="advert-box">
-          <img src="img/_mpimage_002.webp" alt=""/>
-        </div>
-
-        <div class="advert-box">
-          <img src="img/_mpimage.webp" alt=""/>
-        </div>
-
-       
       </div>
-
-
 
         </div>
     )
