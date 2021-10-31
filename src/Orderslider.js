@@ -1,9 +1,6 @@
 import React from 'react'
 import Slider from "react-slick";
 
-import './assets/Orderslider.css';
-// import styles from './assets/Orderslider.module.css'; 
-
 function Orderslider() {
         const settings = {
           dots: true,
@@ -16,7 +13,6 @@ function Orderslider() {
     return ( 
         <div className="fullorderslider">
             <h2 className="ordersliderh2">How to order from Chaldal ?</h2>
-           {/* <div className="ordersliders"> */}
             <Slider {...settings}>
             <div className="orderslider">
                 <img className="ordersliderimg" src="img/tutorial-1.webp" alt="orderslider"/>
@@ -31,7 +27,7 @@ function Orderslider() {
             </div>
 
             </Slider>
-            {/* </div> */}
+       
         </div>
     )
 }

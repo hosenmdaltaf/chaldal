@@ -5,7 +5,6 @@ import Footer from './Footer';
 import Header from './Header';
 import Modal from './Modal';
 import Orderslider from './Orderslider';
-import Specialofferslide from './Specialofferslide';
 import Support from './Support';
 import Total from './Total';
 import Whypepole from './Whypepole';
@@ -28,7 +27,6 @@ function App() {
      <Advert/>
      <Category/>
      <Orderslider/>
-     {/* <Specialofferslide/> */}
      <Whypepole/>
      <Clientsay/>
      <Support/>
