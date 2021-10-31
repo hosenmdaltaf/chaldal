@@ -23,6 +23,7 @@ function App() {
     <div className="App">
              
      <Navbar/>
+     <Modal/>
      <Header/>
      <Advert/>
      <Category/>

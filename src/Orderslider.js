@@ -2,6 +2,7 @@ import React from 'react'
 import Slider from "react-slick";
 
 import './assets/Orderslider.css';
+// import styles from './assets/Orderslider.module.css'; 
 
 function Orderslider() {
         const settings = {

@@ -28,7 +28,7 @@ function Footer() {
             </div>
 
         
-        <div>
+        <div className="fullsecondfooter">
 
             <div  className="secondfooterleft">
                 <div>
@@ -66,19 +66,17 @@ function Footer() {
             </div>
 
 
-
-
             <div className="secondfooterright">
                 <div className="appsimg">
-                <img   src="img/google_play_store.webp" alt="logo"/>
-                <img  src="img/app_store.webp" alt="logo"/>
+                <img className="footappsimg"  src="img/google_play_store.webp" alt="logo"/>
+                <img className="footappsimg"  src="img/app_store.webp" alt="logo"/>
                 </div>
                 <div className="footernumber">
                 <img src="img/phone_icon.webp" alt="logo"/>
                 <h3>1222222</h3>
                 </div>
-                <h3>support@chaldal.com</h3>
-                <div>
+                <h3 className="footeremail">support@chaldal.com</h3>
+                <div className="footerappimg">
                 <img className="topfooterimg" src="img/Facebook.webp" alt="logo"/>
                 <img className="topfooterimg" src="img/Youtube.webp" alt="logo"/>
                 <img className="topfooterimg" src="img/twitter.webp" alt="logo"/>

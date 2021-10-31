@@ -11,7 +11,7 @@ function Navbar() {
                 <div >
                     <img className="humberger"  src="img/icons8-menu.svg" class="" alt=""/> 
                 </div>
-                <div> 
+                <div className="brandlogocover" > 
                     <img src="img/logo-small.png" class="brand-logo" alt=""/>
                 </div>
             </div>
@@ -27,9 +27,9 @@ function Navbar() {
                     <div id='search-box'>
                     <form action='/search' id='search-form' method='get' target='_top'>
                     <input id='search-text' placeholder="search brand, product(e.g. eggs,milk,potato)" type='text' />
-                    {/* <div class="search-btn">
+                    <div class="search-btn">
                             <img   src="img/search_icon.png" class="search-icon" alt=""/> 
-                        </div> */}
+                        </div>
                     </form>
                     </div>
 
@@ -58,11 +58,44 @@ function Navbar() {
                     </div>
                 </div>
 
+                <div className="threedot">
+                 <img   src="img/icons8-menu-vertical-24.png" class="search-icon" alt=""/> 
+                 </div>
+
                 </div>
 
 
             </div>
         </nav>
+
+        
+
+        <div className="newnav">
+         
+            <div className="newnavsecond">
+
+               <div className="newnavsecondfirst">
+               <img className="navlogo1" src="img/location_icon.png" alt=""/> 
+                   <h3>Dhaka</h3>
+               </div>
+
+                   <div>
+                   <img  className="navlogo2" src="img/dropdown-icon-png-22.jpg" alt=""/>  
+                   </div>
+               
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
   
 
         </div>
